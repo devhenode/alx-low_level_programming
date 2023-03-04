@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	int num;
-	int la;
+	char la;
 
 	if (num < 10)
 	{
