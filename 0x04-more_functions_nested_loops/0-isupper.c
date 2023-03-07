@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * c - character will be checked for case
+ * _isupper - checks for uppercase
+ * @c - character will be checked for case
  * Return: 1 if uppercase, 0 if not uppercase
  */
 int _isupper(int c)
