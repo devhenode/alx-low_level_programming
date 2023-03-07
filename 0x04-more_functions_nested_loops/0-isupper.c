@@ -3,8 +3,8 @@
 
 /**
  * main - check the code
- *
- * Return: Always 0
+ * c - character will be checked for case
+ * Return: 1 if uppercase, 0 if not uppercase
  */
 int _isupper(int c)
 {
