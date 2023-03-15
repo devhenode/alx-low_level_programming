@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
   * print_rev - Prints a string in reverse
   * @s: The string to print
@@ -10,18 +10,10 @@
 
 void print_rev(char *s)
 {
-	int length = strlen(*s);
-	int average = length / 2;
-
-	for (int i = 0; i < *s; i++)
+	for (i = strlen(*s) - 1; i >= 0; i--)
 	{
-		char result = *s[i];
-		*s[i] = *s[length - i - 1];
-		*s[length -i - 1] = result;
-
-		_putchar("%s", result);
+		_putchar("%c", *s[i]);
 	}
 	_putchar("\n");
-
 	return (0);
 }
